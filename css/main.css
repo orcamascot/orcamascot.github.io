@@ -3746,10 +3746,7 @@ footer .row {
     .footer-bottom .copyright span::after {
         display: none;
     }
-    .go-top {
-        right: 0;
-        bottom: 0;
-    }
+    
 }
 
 @media only screen and (max-width: 500px) {
