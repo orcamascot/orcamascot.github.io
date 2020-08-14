@@ -2191,7 +2191,18 @@ html.no-csstransitions .home-content__main {
         max-width: 750px;
     }
 }
+@media only screen and (max-width: 801px) {
+    .home-content__buttons {
+        padding-top: 11.2rem;
+        text-align: center;
+    }
+    .home-content__buttons .btn {
+        display: block;
+        width: 70%;
+        margin: 2.5rem 0 0 0;
 
+    }
+}
 @media only screen and (max-width: 800px) {
     .home-content h3 {
         font-size: 1.5rem;
@@ -2566,6 +2577,7 @@ html.no-csstransitions .home-content__main {
 
 .service-text{
     font-size: 1.8rem;
+    text-align: justify;
 }
 
 .services-list .service-icon {
@@ -2944,8 +2956,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials p {
-    font-size: 3rem;
-    line-height: 1.8;
+    font-size: 2.5rem;
+    line-height: 1.5;
     color: #555555;
     margin-bottom: 6rem;
 }
@@ -2955,8 +2967,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__avatar {
-    height: 8.4rem;
-    width: 8.4rem;
+    height: 9.6rem;
+    width: 9.6rem;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
 }
